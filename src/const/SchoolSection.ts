@@ -1,0 +1,56 @@
+export interface SchoolSection {
+    name:string,
+    symbol:string,
+}
+
+export const SchoolSectionList:SchoolSection[] = [
+    {
+        name:"機械工学科",
+        symbol:"aa"
+    },{
+        name:"機械機能工学科",
+        symbol:"ab"
+    },{
+        name:"材料工学科",
+        symbol:"ac"
+    },{
+        name:"応用化学科",
+        symbol:"ad"
+    },{
+        name:"電気工学科",
+        symbol:"ae"
+    },{
+        name:"情報通信工学科",
+        symbol:"af"
+    },{
+        name:"電子工学科",
+        symbol:"ag"
+    },{
+        name:"土木工学科",
+        symbol:"ah"
+    },{
+        name:"情報工学科",
+        symbol:"al"
+    },{
+        name:"電子情報システム学科",
+        symbol:"bp"
+    },{
+        name:"機械制御システム学科",
+        symbol:"bq"
+    },{
+        name:"環境システム学科",
+        symbol:"br"
+    },{
+        name:"生命科学科",
+        symbol:"bn"
+    },{
+        name:"数理科学科",
+        symbol:"bv"
+    },{
+        name:"デザイン工学部",
+        symbol:"y"
+    },{
+        name:"建築学部",
+        symbol:"z"
+    }
+]
