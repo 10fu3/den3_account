@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {AccountBox,Contacts} from "@mui/icons-material";
 import React, {useState} from "react";
 import {ProfileCard} from "./ProfileCard";
+import {MembersCard} from "./MembersCard";
 
 const ProfileStatus = 0;
 const AccountBookStatus = 1;
@@ -27,7 +28,7 @@ export const MainCard = ()=>{
         <Grid container justifyContent="center">
             <Grid item>
                 {
-                    page === ProfileStatus ? <ProfileCard/> : <></>
+                    page === ProfileStatus ? <ProfileCard/> : <MembersCard/>
                 }
             </Grid>
         </Grid>

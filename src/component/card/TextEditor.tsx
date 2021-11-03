@@ -23,7 +23,7 @@ export const TextEditor: React.FC<{ id: string, title: string, before: string, a
 
     const Editor = open ? <div style={{marginTop: "10px", marginLeft: "10px"}}>
         <Grid container>
-            <Grid item style={{width: "calc(100% - 74px)"}}>
+            <Grid item style={{width: "calc(100% - 84px)"}}>
                 <TextField size={"small"} variant={"outlined"} style={{width: "calc(100%)"}} onChange={(e) => {
                     props.setBody(e.target.value)
                 }}/>
@@ -31,7 +31,8 @@ export const TextEditor: React.FC<{ id: string, title: string, before: string, a
             <Grid item>
                 <Button style={{
                     marginLeft: "10px",
-                    width: "calc(100% - 415px)",
+                    width: "74px",
+                    height:"40px",
                     color: "#5cad00",
                     borderColor: "#5cad00"
                 }} variant="outlined"

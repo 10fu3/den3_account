@@ -5,8 +5,6 @@ import {MainCard} from "../component/card/MainCard";
 
 export const Main = ()=>{
 
-    const isProfile = window.location.pathname === "/profile"
-
     return <div style={{marginBottom:30}}>
         <AppBar position="static">
             <Toolbar>
